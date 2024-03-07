@@ -15,6 +15,8 @@ endfunction
 " Make sure insert mode is the default mode only when opening/switching
 " to files that you want to edit.
 function! s:InsertMode()
+  if g:novim_mode_use_default_insert_mode != 1
+    return
   if s:IsEditableBuffer() == 1
     exe "startinsert"
     inoremap <Esc> <Nop>
