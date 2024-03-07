@@ -17,6 +17,7 @@ endfunction
 function! s:InsertMode()
   if g:novim_mode_use_default_insert_mode != 1
     return
+  endif
   if s:IsEditableBuffer() == 1
     exe "startinsert"
     inoremap <Esc> <Nop>
