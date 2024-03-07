@@ -239,10 +239,10 @@ function! g:SetNoVimModeShortcuts()
     inoremap <silent> <C-M-D> <C-O>"dyy<C-O>"dp
 
     " CTRL+DOWN/UP moves the current/selected line(s) up and down
-    inoremap <silent> <C-Up> <C-O>:m -2<CR>
-    snoremap <silent> <C-Up> <C-O>:m '<-2<CR>gv=gv<C-G>
-    inoremap <silent> <C-Down> <C-O>:m +1<CR>
-    snoremap <silent> <C-Down> <C-O>:m '>+1<CR>gv=gv<C-G>
+    inoremap <silent> <M-Up> <C-O>:m -2<CR>
+    snoremap <silent> <M-Up> <C-O>:m '<-2<CR>gv=gv<C-G>
+    inoremap <silent> <M-Down> <C-O>:m +1<CR>
+    snoremap <silent> <M-Down> <C-O>:m '>+1<CR>gv=gv<C-G>
   endif
 endfunction
 
