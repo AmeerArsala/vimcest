@@ -203,7 +203,7 @@ function! g:SetNoVimModeShortcuts()
     " Find previous
     inoremap <S-F3> <C-O>N
     " Find and replace
-    inoremap <C-H> <C-O>:%s/[FIND]/[REPLACE]/g
+    inoremap <C-S-F> <C-O>:%s/[FIND]/[REPLACE]/g
   endif
 
   " Undo/redo
