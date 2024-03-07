@@ -17,7 +17,8 @@ let s:settings = {
   \ 'use_undoing': 1,
   \ 'use_text_tricks': 1,
   \ 'use_better_wrap_navigation': 1,
-  \ 'use_shortcuts': 1
+  \ 'use_shortcuts': 1,
+  \ 'use_default_insert_mode': 1
 \}
 
 " Fetches existing values from user and sets defaults if not set.
