@@ -80,7 +80,7 @@ One further common problem is that `tmux` can change key combination behaviour, 
   * `CTRL+LEFT/RIGHT`: Move cursor per word (works in selection as well).
   * `CTRL+ALT+k`: Delete current line. _Currently broken in terminal Vim_
   * `CTRL+ALT+d`: Duplicate current line. _Currently broken in terminal Vim_
-  * `CTRL+UP/DOWN`: Move current line or selected text up/down.
+  * `ALT+UP/DOWN`: Move current line or selected text up/down.
 
 _Note that `CTRL`-based shortcuts are paired with uppercase letters in these docs because
 Vim does not recognise the difference between cases when using `CTRL` combinations and
