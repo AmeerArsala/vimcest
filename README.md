@@ -1,3 +1,8 @@
+# Vimcest
+
+Vim but inbred with regular text editing. This creates a beautiful harmony of old and new methods that also allow newcomers to have a smooth transition to vim. 
+
+---
 #  No Vim Keybindings Mode
 
 Some, indeed many, may say this is counter-productive or even sacrilegious. But Vim is a lot more than just a keybinding paradigm; firstly it has one of the richest plugin ecosystems of any editor, but also it is a -if not *the* most- ubiquitous text editor that's been battle tested for over 25 years. There are more reasons to use it than merely its famous shortcut vocabulary.
@@ -12,7 +17,7 @@ The name `novim-mode` is a nod to the prevalence of 'vim-mode' plugins and exten
 
 Use your favourite plugin manager, eg, for vim-plug;
 
-`Plug 'tombh/novim-mode'`
+`Plug 'AmeerArsala/vimcest'`
 
 ## Usage
 
@@ -65,7 +70,7 @@ One further common problem is that `tmux` can change key combination behaviour, 
 #### Finding, replacing
   * `CTRL+F`: Find text. When text is selected that selection is searched for.
   * `F3` and `SHIFT+F3`: Find next and previous occurences.
-  * `CTRL+H`: Find and replace. `[FIND]` and `[REPLACE]` are prepopulated.
+  * `CTRL+SHIFT+F`: Find and replace. `[FIND]` and `[REPLACE]` are prepopulated.
 
 #### Undoing
   * `CTRL+Z` or `CTRL+U`: Undo.
@@ -117,4 +122,4 @@ Lastly you can unmap a mapping using commands such as `nunmap`, `iunmap`, `sunma
   * Because a lot of the keybindings trigger brief switches to NORMAL mode in the background, then be careful of plugins that cause a delay between switching modes. I know that `vim-airline` in particular has this problem.
   * In Neovim there seems to be a bug where only `SHIFT+TAB` and not `TAB` works for indenting during selection mode.
   * Mapping `<CTRL+M>` internally means mapping `<RETURN>`. This is a throwback to Vim's days as a pure terminal application.
-  * `CTRL+BACKSPACE` internally represents `<CTRL+H>`, which can be annoying. Again this is a throwback to Vim's days as a pure terminal application.
+  * ~~`CTRL+BACKSPACE` internally represents `<CTRL+H>`, which can be annoying. Again this is a throwback to Vim's days as a pure terminal application.~~
