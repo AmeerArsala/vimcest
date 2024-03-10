@@ -429,4 +429,10 @@ function! novim_mode#EnterSelectionMode(type)
   if a:type == 'all'
     execute "normal! ggVG\<C-G>"
   endif
+  if a:type == 'comment'
+    execute "normal! gc"
+  endif
+  if a:type == 'block-comment'
+    execute "normal! gd"
+  endif
 endfunction
